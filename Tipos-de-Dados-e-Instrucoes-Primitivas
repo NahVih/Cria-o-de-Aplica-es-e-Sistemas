@@ -1,0 +1,29 @@
+Algoritmo "Tipos de Dados e Instruções Primitivas"
+// Disciplina   : Criação de Aplicações e Sistemas
+// Professor   : Franklin Correira Portela
+// Descrição   : Algoritmo em pseudocódigo com valores nome, idade, altura e criança
+// Autor(a)    : Salvador Baptista
+// Data atual  : 30/01/2023
+Var
+// Seção de Declarações das variáveis
+nome_do_aluno: caractere
+idade: inteiro
+altura: real
+crianca: logico
+
+
+Inicio
+nome_do_aluno <- "Salvador";
+idade <- 31;
+altura <- 1.90;
+crianca <- falso;
+
+
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+escreval ("Tipo de Caracter: " + nome_do_aluno)
+escreval ("Tipo de Inteiro: ", idade)
+escreval ("Tipo de Real: ", altura)
+escreva("Tipo de Booleno: ", crianca)
+
+
+Fimalgoritmo
